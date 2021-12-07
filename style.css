@@ -166,6 +166,11 @@ footer  a {
   .introduction {
     flex-direction: column;
     text-align: center;
+    gap: 1vh 0;
+  }
+  
+  .introduction__details {
+    gap: 0.75vh 0;
   }
 
   .introduction__lineTwo {
@@ -175,6 +180,7 @@ footer  a {
   }
 
   .introduction__lineThree {
+    margin-top: 2px;
     display: flex;
     flex-direction: column;
     gap: 0.6vh 0;
