@@ -39,7 +39,7 @@ body {
 }
 
 .introduction__img {
-  width: 7vw;
+  height: 13.5vh;
 }
 
 .introduction__details {
@@ -59,11 +59,11 @@ body {
 .introduction__lineTwo {
   font-weight: 400;
   font-size: 1.25rem;
-  margin-bottom: 5px;
+  margin-bottom: 4px;
 }
 
 .introduction__lineThree {
-  margin-top: 5px;
+  margin-top: 4px;
   font-weight: 300;
 }
 
@@ -77,7 +77,7 @@ body {
 .link-hl {
   color: var(--font-color);
   text-decoration: none;
-  padding: 0.2rem 0.4rem;
+  padding: 0.1rem 0.2rem;
   background: #10b981;
   font-weight: 500;
   border-radius: 5px;
