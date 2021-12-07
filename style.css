@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600;700;800;900&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --primary-color: #2f3237;
+  --secondary-color: #2a2b2f;
+  --font-color: #e5eaf0;
+  --purple: #bba9fb;
+}
+
+body {
+  margin-top: 6vh;
+  background: var(--primary-color);
+  font-family: 'Rubik', sans-serif;
+  letter-spacing: 0.25px;
+  color: var(--font-color);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  gap: 5vh 0;
+}
+
+.heading {
+  font-size: 2.5rem;
+  text-align: center;
+}
+
+.introduction {
+  display: flex;
+  gap: 0 1vw;
+  letter-spacing: 0.5px;
+  align-items: center;
+}
+
+.introduction__img {
+  width: 7vw;
+}
+
+.introduction__details {
+  display: flex;
+  flex-direction: column;
+}
+
+.introduction__line {
+  font-weight: 500;
+  font-size: 1rem;
+}
+
+.introduction__lineOne {
+  font-size: 1.5rem;
+}
+
+.introduction__lineTwo {
+  font-weight: 400;
+  font-size: 1.25rem;
+  margin-bottom: 5px;
+}
+
+.introduction__lineThree {
+  margin-top: 5px;
+  font-weight: 300;
+}
+
+.name-hl {
+  padding: 0.2rem 0.4rem;
+  background: #8b5cf6;
+  font-weight: 500;
+  border-radius: 5px;
+}
+
+.link-hl {
+  color: var(--font-color);
+  text-decoration: none;
+  padding: 0.2rem 0.4rem;
+  background: #10b981;
+  font-weight: 500;
+  border-radius: 5px;
+}
+
+.projects {
+  margin-top: 3vh;
+  margin-bottom: 3vh;
+  display: flex;
+  width: 80vw;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  gap: 4vh 0;
+}
+
+.project {
+  /* width: 36vw; */
+  display: flex;
+  flex-direction: column;
+  gap: 1vh 0;
+  padding: 1rem;
+  border: 1px solid gray;
+  border-radius: 5px;
+}
+
+.project__thumbnail {
+  width: 320px;
+}
+
+.links {
+  margin-top: 1vh;
+}
+
+.links > a {
+  color: var(--font-color);
+  text-decoration: none;
+}
+
+.link {
+  padding: 0.2rem 0.4rem;
+  border-radius: 5px;
+}
+
+.primary-link {
+  background: #dc2626;
+}
+
+.secondary-link {
+  background: #b91c1c;
+}
+
+footer {
+  height: 5vh;
+}
+
+footer > a {
+  text-decoration: none;
+  color: var(--font-color);
+  font-weight: 600;
+  padding: 0.2rem 0.4rem;
+  border-radius: 5px;
+}
+
+.footer__linkOne {
+  background: #b45309;
+}
+
+.footer__linkTwo {
+  background: #92400e;
+}
+
+/* font-family: 'Rubik', sans-serif; */
